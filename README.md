@@ -4,5 +4,6 @@
 - Consumo da API
 - Múltiplas requisições em paralelo
 - Tipos de Pokémon dinamicamente
+- Botão de paginação
 - Mecanismo de paginação
 
