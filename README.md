@@ -9,4 +9,4 @@
 - Convertendo o modelo do PokeApi para nosso modelo
 - Adicionando os tipos de Pokémon dinamicamente
 - Criando mecanismo de paginação
-- Desenvolvido por: MarcosGerminiodeSouza
+
