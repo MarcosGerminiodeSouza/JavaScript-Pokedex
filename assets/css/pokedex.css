@@ -8,6 +8,7 @@
 
 .pokemon:hover {
     cursor: pointer;
+    opacity: .9;
 }
 
 .normal {
@@ -81,8 +82,10 @@
     display: flex;
     flex-direction: column;
     margin: .5rem;
-    padding: 1rem;
+    padding: .5rem;
     border-radius: 1rem;
+    width: 96%;
+    height: 96%;
 }
 
 .pokemon .number {
@@ -96,6 +99,10 @@
     text-transform: capitalize;
     color: #fff;
     margin-bottom: .25rem;
+}
+
+.pokemon .name:hover {
+    color: #212121;
 }
 
 .pokemon .detail {
@@ -119,12 +126,12 @@
     border-radius: 1rem;
     filter: brightness(1.1);
     text-align: center;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .pokemon .detail img {
-    max-width: 70%;
-    height: 3rem;
+    max-width: 50%;
+    height: 3.5rem;
 }
 
 .pagination {
@@ -160,7 +167,7 @@
     background-color:rgba(0,0,0,0.4);
 }
 
-.modal-container{
+.modal-container {
     margin:auto;
     background-color:#fff;
     position:relative;
@@ -200,7 +207,7 @@
     color: #212121;
 }
 
-.dragon{
+.dragon {
     color: #212121;
 }
 
@@ -212,7 +219,7 @@
     color: #212121;
 }
 
-@keyframes animatezoom{
+@keyframes animatezoom {
     from {transform:scale(0)} to {transform:scale(1)}
 }
 
@@ -257,8 +264,8 @@
 }
 
 .image-container img {
-    max-height: 100px;
-    max-width: 100px;
+    max-height: 150px;
+    max-width: 150px;
     margin-bottom: -15px;
     z-index: 90;
 }
