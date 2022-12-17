@@ -7,10 +7,15 @@ body {
     background-color: #f6f8fc;
 }
 
+.content h1{
+    text-align: center;
+}
+
 .content {
     width: 100vw;
     height: 100vh;
     padding: 1rem;
+    margin: 1rem;
     background-color: #fff;
 }
 
