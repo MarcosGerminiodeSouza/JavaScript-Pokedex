@@ -6,19 +6,23 @@
     list-style: none;
 }
 
+.pokemon:hover {
+    cursor: pointer;
+}
+
 .normal {
     background-color: #616161c5;
 }
 
 .grass {
-    background-color: #9bcc50;
+    background-color: #66a10ea8;
 }
 
 .poison {
     background-color: #74128fc7;
 }
 .fire {
-    background-color: #d8562ef1;
+    background-color: #d83808c2;
 }
 
 .water {
@@ -30,7 +34,7 @@
 }
 
 .fighting {
-    background-color: #bf3129f8;
+    background-color: #bd0900ab;
 }
 
 .psychic {
